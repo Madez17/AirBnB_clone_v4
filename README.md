@@ -212,7 +212,8 @@ github repo
 
 ## Authors
 
-* MJ Johnson, [@mj31508](https://github.com/mj31508)
+* María Fernanda Méndez - [Github](https://github.com/Madez17) / [Twitter](https://twitter.com/Ma_dez17)
+* Nicolas Martinez Machado- [Github](https://github.com/Noeuclides) / [Twitter](https://twitter.com/No_euclides) 
 * David John Coleman II, [davidjohncoleman.com](http://www.davidjohncoleman.com/) | [@djohncoleman](https://twitter.com/djohncoleman)
 * Kimberly Wong, [kjowong](https://github.com/kjowong) | [@kjowong](https://twitter.com/kjowong) | [kjowong@gmail.com](kjowong@gmail.com)
 * Carrie Ybay, [hicarrie](https://github.com/hicarrie) | [@hicarrie_](https://twitter.com/hicarrie_)
