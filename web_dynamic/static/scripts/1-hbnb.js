@@ -4,7 +4,11 @@ window.addEventListener('load', function () {
      if($(this).is(":checked")) {
        list[$(this).attr("data_id")] = $(this).attr("amenity_id")
      } else {
-       $(list).remove('data_id')
+       delete list[$(this).attr("data_id")]
      }
-     $('<li>' + list + '</li>').appendTo('h4');
+     const saveName = []
+     for name in list {
+       $('.amenities h4').text(list.join(', '));
+     }
+     
  });
