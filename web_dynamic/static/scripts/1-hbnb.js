@@ -1,14 +1,19 @@
-window.addEventListener('load', function () {
-  let list = {}
-  $( "input[type=checkbox]" ).on( "click");
-     if($(this).is(":checked")) {
-       list[$(this).attr("data_id")] = $(this).attr("amenity_id")
-     } else {
-       delete list[$(this).attr("data_id")]
-     }
-     const saveName = []
-     for name in list {
-       $('.amenities h4').text(list.join(', '));
-     }
-     
- });
+$(function () {
+  const dict = {};
+  $('.amenities input').change(function () {
+    if ($(this).is(':checked')) {
+      dict[$(this).attr('data-name')] = $(this).attr('data-id');
+    } else {
+      delete dict[$(this).attr('data-name')];
+    }
+    const list = [];
+    for (const key of Object.keys(dict)) {
+      list.push(key);
+    }
+    if (list.length === 0) {
+      $('.amenities h4').html('&nbsp;');
+    } else {
+      $('.amenities h4').text(list.join(', '));
+    }
+  });
+});
