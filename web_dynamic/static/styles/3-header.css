@@ -21,10 +21,10 @@ header {
     background-color: #cccccc;
     border-radius: 50%;
     height: 40px;
-    border: 1px solid #000;
+    border: 1px solid #ff545f;
     margin-right: 30px;
 }
 
-.available {
+#api_status.available {
     background-color: #ff545f;
 }
