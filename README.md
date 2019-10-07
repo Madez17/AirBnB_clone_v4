@@ -203,6 +203,20 @@ create: create [ARG] [PARAM 1] [PARAM 2] ...
   * **update with dictionary:** `<class name>.update(<id>,
     <dictionary representation>)`
 
+### web_dinamyc
+
+
+- Create request API
+- Modify an HTML element style
+- Get and update an HTML element content
+- Modify the DOM
+- Make a GET request with jQuery Ajax
+- Make a POST request with jQuery Ajax
+- Listen/bind to DOM events
+- Listen/bind to user events
+
+
+
 ---
 
 ### Continuous Integration Tests
